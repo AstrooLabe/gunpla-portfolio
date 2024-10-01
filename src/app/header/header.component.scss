@@ -4,14 +4,25 @@
     color: black;
     background-color: #FAFAFA;
     text-align: center;
-    justify-content: center;
+    // justify-content: center;
     height: 150px;
     font-size: 3.5cap;
     letter-spacing: 0.1em;
     flex-wrap: nowrap;
 
-    .button {
-        align-self: flex-end;
-        
+    .leftSpan {
+        flex: 1;
     }
+
+    .rightSpan {
+        flex: 1;
+        flex-direction: row-reverse;
+        display: flex;
+    }
+
+    .titleSpan {
+        flex: 1;
+    }
+
+    .button {}
 }
