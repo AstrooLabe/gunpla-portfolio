@@ -1,0 +1,27 @@
+.main_div{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: calc(100vh - 166px);
+    font-size: xx-large;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    
+    .text{
+        padding: 15px;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    
+    img {
+        max-width: 100%;
+        flex: 1 1 auto;
+        height: auto;
+        object-fit: contain;
+        min-height: 200px;
+    }
+}

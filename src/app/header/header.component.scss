@@ -1,14 +1,11 @@
+
 .mat-toolbar {
-    display: flex;
-    flex-direction: row;
-    color: black;
     background-color: #FAFAFA;
     text-align: center;
-    // justify-content: center;
-    height: 150px;
-    font-size: 3.5cap;
+    height: 130px;
+    font-size: 5vh;
     letter-spacing: 0.1em;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
     .leftSpan {
         flex: 1;
@@ -21,7 +18,7 @@
     }
 
     .titleSpan {
-        flex: 1;
+        flex: 1 1 auto;
     }
 
     .button {}

@@ -2,13 +2,13 @@
     <span class="leftSpan"></span>
     <span class="titleSpan">ASTROPHEL'S GUNPLAS</span>
     <span class="rightSpan">
-        <button mat-icon-button matTooltip="Share this page!" color="primary" [cdkCopyToClipboard]="getURL()">
+        <a mat-icon-button matTooltip="Share this page!" (click)="openSnackBar('Link copied to clipboard!', '', 1000)" [cdkCopyToClipboard]="getURL()">
             <mat-icon>share</mat-icon>
-        </button>
-        <a mat-icon-button matTooltip="My Twitter" color="primary" href="https://x.com/AstrooLabe" target="_blank">
+        </a>
+        <a mat-icon-button matTooltip="My Twitter (Mostly in french)" href="https://twitter.com/AstrooLabe" target="_blank">
             <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
         </a>
-        <a mat-icon-button matTooltip="My Bluesky" color="primary" href="https://bsky.app/profile/astroolabe.bsky.social" target="_blank">
+        <a mat-icon-button matTooltip="My Bluesky (Mostly in english)" href="https://bsky.app/profile/astroolabe.bsky.social" target="_blank">
             <fa-icon [icon]="['fab', 'bluesky']" ></fa-icon>
         </a>
     </span>
