@@ -9,11 +9,12 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faTwitter, faBluesky } from '@fortawesome/free-brands-svg-icons';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [MatToolbarModule, MatIconModule, MatButtonModule, MatTooltipModule, FontAwesomeModule, ClipboardModule],
+  imports: [MatToolbarModule, MatIconModule, MatButtonModule, MatTooltipModule, FontAwesomeModule, ClipboardModule, RouterLink],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
