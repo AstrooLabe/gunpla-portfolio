@@ -3,7 +3,7 @@ import { MaintenanceComponent } from './maintenance/maintenance.component';
 import { ModelsListComponent } from './models-list/modelsList.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/maintenance', pathMatch: 'full'},
     { path: 'maintenance', component: MaintenanceComponent},
     { path: 'models-list', component: ModelsListComponent},
+    { path: '', redirectTo: '/maintenance', pathMatch: 'full'},
 ];
