@@ -22,5 +22,16 @@
             icons</mat-list-item>
         <fa-icon [icon]="['fas', 'circle']" style="font-size:8px"> </fa-icon><mat-list-item> Bootstrap (someday
             maybe)</mat-list-item>
+        <mat-divider></mat-divider>
+    </mat-dialog-content>
+
+    <h2 mat-dialog-title>About Angular and Neocities</h2>
+    <mat-dialog-content class="mat-typography">
+        <p>If like me you have/had problems getting modern Angular to works fine with Neocities, you need to use
+            HashLocationStrategy
+            to get your routes to load properly. You can find the doc
+            <a href="https://angular.dev/guide/routing/common-router-tasks#locationstrategy-and-browser-url-styles"
+                target="_blank">here</a>.
+        </p>
     </mat-dialog-content>
 </div>
