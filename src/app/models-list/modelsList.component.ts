@@ -10,4 +10,16 @@ import { UpButtonComponent } from '../up-button/up-button.component';
     styleUrl: './modelsList.component.scss'
 })
 export class ModelsListComponent {
+    modelsList: Model[] = [];
+    constructor() {
+        fetch('../../assets/json-lists/models-list.json').then((res) => {
+            return res.json();
+        }).then((data) => { this.modelsList = data.modelsList; });
+    }
+}
+
+interface Model {
+    name: string;
+    imgLink: string;
+    pageLink: string;
 }

@@ -9,15 +9,43 @@
         padding-bottom: 10px;
     }
 
-
     mat-grid-list {
         mat-grid-tile {
-            background: lightblue;
+            //background: lightblue;
             border-radius: 10px;
+            place-content: center;
+            display: flex;
+            flex-direction: column;
+
+            .tileText {
+                cursor: pointer;
+                background-color: rgba(128, 128, 128, 0.7);
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                display: inline-flex;
+                font-size: x-large;
+                font-weight: 400;
+                opacity: 0;
+                transition: .4s ease;
+                z-index: 21;
+                color: whitesmoke;
+                height: 100%;
+                width: 100%;
+                font-size: 5vh;
+            }
+
+            .tileText:hover {
+                opacity: 1;
+                transition: .4s ease;
+            }
 
             img {
                 object-fit: contain;
                 max-height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
             }
 
         }
