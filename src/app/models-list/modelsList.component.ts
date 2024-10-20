@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, model } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { UpButtonComponent } from '../up-button/up-button.component';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-modelsList',
@@ -11,10 +12,14 @@ import { UpButtonComponent } from '../up-button/up-button.component';
 })
 export class ModelsListComponent {
     modelsList: Model[] = [];
-    constructor() {
+    constructor(public router: Router) {
         fetch('../../assets/json-lists/models-list.json').then((res) => {
             return res.json();
         }).then((data) => { this.modelsList = data.modelsList; });
+    }
+
+    navigateToModelPage(modelLink: String = "") {
+        this.router.navigate(['/model', modelLink]);
     }
 }
 

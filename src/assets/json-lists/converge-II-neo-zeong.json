@@ -1,0 +1,50 @@
+{
+    "modelInfo": {
+        "modelName": "GUNDAM CONVERGE II NEO ZEONG",
+        "nbGridCols": "6",
+        "aspectRatio": "8:8.4"
+    },
+    
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/Mnnmgf8/II-NEO-ZEONG-8.jpg",
+            "nbCols": "4",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/vPjbWxc/II-NEO-ZEONG-0.jpg",
+            "nbCols": "2",
+            "nbRows": "4"
+        },
+        {
+            "imgLink": "https://i.ibb.co/f9SxSJC/II-NEO-ZEONG-2.jpg",
+            "nbCols": "4",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/ZcHJ2yv/II-NEO-ZEONG-1.jpg",
+            "nbCols": "2",
+            "nbRows": "4"
+        },
+        {
+            "imgLink": "https://i.ibb.co/4Tz5ZzK/II-NEO-ZEONG-3.jpg",
+            "nbCols": "4",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/pxS5R00/II-NEO-ZEONG-4.jpg",
+            "nbCols": "4",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "",
+            "nbCols": "1",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/ZdJtKfC/II-NEO-ZEONG-6.jpg",
+            "nbCols": "4",
+            "nbRows": "2"
+        }
+    ]
+}
