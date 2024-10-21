@@ -1,0 +1,30 @@
+{
+    "modelInfo": {
+        "modelName": "CUSTOM WIP /// GM QUEER",
+        "nbGridCols": "2",
+        "aspectRatio": "3:4"
+    },
+
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/JC2yJKB/GM-Queer-colored-v1-1.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/2ywj0hc/jambes-gm-queer.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/rv0BmWW/Gm-Queer-Test-peinture-2.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/MDyQ3cZ/GM-Gueer-Test-peinture.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        }
+    ]
+}

@@ -1,14 +1,19 @@
 {
     "modelsList": [
         {
+            "name": "CUSTOM WIP /// GM QUEER",
+            "imgLink": "https://i.ibb.co/KrHRMsP/GM-Queer-thumbnail.png",
+            "pageLink": "gm-queer"
+        },
+        {
             "name": "SDWH GAN NING CROSSBONE GUNDAM CUSTOM",
             "imgLink": "https://i.ibb.co/nkPy6k8/AM-719.jpg",
             "pageLink": "gan-ning-custom"
         },
         {
-            "name": " CUSTOM WIP /// GM QUEER",
-            "imgLink": "https://i.ibb.co/KrHRMsP/GM-Queer-thumbnail.png",
-            "pageLink": "gm-queer"
+            "name": "HG WfM CHUCHU'S DEMI TRAINER",
+            "imgLink": "https://i.ibb.co/stDCszc/thumbnail-chuchu-dt.jpg",
+            "pageLink": "hg-chuchu-dt"
         },
         {
             "name": "SDCS ZETA GUNDAM",

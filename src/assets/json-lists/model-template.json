@@ -1,7 +1,8 @@
 {
     "modelInfo": {
         "modelName": "",
-        "nbGridCols": ""
+        "nbGridCols": "",
+        "aspectRatio": ""
     },
 
     "imageList": [

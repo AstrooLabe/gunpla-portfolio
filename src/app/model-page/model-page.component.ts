@@ -15,7 +15,7 @@ import { Observable } from 'rxjs';
 export class ModelPageComponent {
   state: Observable<object> = new Observable<object>();
   modelLink: string = "";
-  modelInfo!: ModelInfo;
+  modelInfo: ModelInfo = { modelName: "", aspectRatio: "", nbGridCols: ""};
   modelImages: Image[] = [];
   
   constructor(public route: ActivatedRoute) {

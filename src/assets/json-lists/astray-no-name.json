@@ -1,0 +1,25 @@
+{
+    "modelInfo": {
+        "modelName": "HGBD ASTRAY NO NAME",
+        "nbGridCols": "4",
+        "aspectRatio": "3:4"
+    },
+
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/qnnm2bL/HG-Astray-No-Name-3.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/L0frGD2/HG-Astray-No-Name-1.jpg",
+            "nbCols": "2",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/0ytxr39/HG-Astray-No-Name-2.jpg",
+            "nbCols": "2",
+            "nbRows": "1"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "modelInfo": {
+        "modelName": "SDWH GAN NING CROSSBONE GUNDAM CUSTOM",
+        "nbGridCols": "4",
+        "aspectRatio": "3:4"
+    },
+
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/8s9vg8S/AM-719-9.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/b7HMSwt/AM-719-3.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/zQQMGGc/AM-719-0.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/XWNJw5k/AM-719-5.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/JFp0svn/AM-719-4.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/c1Z5CCL/AM-719-10.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/3yxpM1X/AM-719-8.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/gRJpgZX/AM-719-2.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/WHSbCdG/AM-719-1.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/QF4yYGy/AM-719-6.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        }
+    ]
+}

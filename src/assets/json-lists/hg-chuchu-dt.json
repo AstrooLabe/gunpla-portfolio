@@ -1,0 +1,30 @@
+{
+    "modelInfo": {
+        "modelName": "HG WfM CHUCHU'S DEMI TRAINER",
+        "nbGridCols": "2",
+        "aspectRatio": "3:4"
+    },
+
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/Lz3FMj8/HG-CHUCHU-DEMI-TRAINER-3.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/my29xGw/HG-CHUCHU-DEMI-TRAINER-2.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/RBfYZCv/HG-CHUCHU-DEMI-TRAINER-1.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/xmdqGK6/HG-CHUCHU-DEMI-TRAINER-0.jpg",
+            "nbCols": "1",
+            "nbRows": "1"
+        }
+    ]
+}

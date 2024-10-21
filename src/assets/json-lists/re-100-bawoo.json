@@ -1,0 +1,35 @@
+{
+    "modelInfo": {
+        "modelName": "RE/100 AMX-107 BAWOO",
+        "nbGridCols": "4",
+        "aspectRatio": "3:4"
+    },
+
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/5Bp5tPg/RE-100-Bawoo-2.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/8K8X2Dr/RE-100-Bawoo-5.jpg",
+            "nbCols": "2",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/0QWGXNn/RE-100-Bawoo-4.jpg",
+            "nbCols": "2",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/XYSw42K/RE-100-Bawoo-3.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/Wtt8Br1/RE-100-Bawoo-6.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        }
+    ]
+}

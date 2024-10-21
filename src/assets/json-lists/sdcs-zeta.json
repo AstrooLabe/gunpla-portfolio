@@ -1,0 +1,40 @@
+{
+    "modelInfo": {
+        "modelName": "SDCS ZETA GUNDAM",
+        "nbGridCols": "6",
+        "aspectRatio": "8:7"
+    },
+
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/qrJcqNp/SDCS-Gundam-Zeta-1.jpg",
+            "nbCols": "3",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/b3b9XVj/SDCS-Gundam-Zeta-2.jpg",
+            "nbCols": "3",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/0KWf9q0/SDCS-Gundam-Zeta-3.jpg",
+            "nbCols": "4",
+            "nbRows": "3"
+        },
+        {
+            "imgLink": "https://i.ibb.co/TMMYyPS/SDCS-Gundam-Zeta-4.jpg",
+            "nbCols": "2",
+            "nbRows": "3"
+        },
+        {
+            "imgLink": "https://i.ibb.co/Cv3sK4Q/SDCS-Gundam-Zeta-5.jpg",
+            "nbCols": "3",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/S3nmxkm/SDCS-Gundam-Zeta-6.jpg",
+            "nbCols": "3",
+            "nbRows": "2"
+        }
+    ]
+}

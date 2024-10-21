@@ -1,0 +1,25 @@
+{
+    "modelInfo": {
+        "modelName": "MG RX-78-2 GUNDAM 3.0",
+        "nbGridCols": "4",
+        "aspectRatio": "3:4"
+    },
+
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/g3zvN0m/MG-RX-78-3-0-2.jpg",
+            "nbCols": "2",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/XFqvGWn/MG-RX-78-3-0-3.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/6vHGMy4/MG-RX-78-3-0-1.jpg",
+            "nbCols": "2",
+            "nbRows": "1"
+        }
+    ]
+}
