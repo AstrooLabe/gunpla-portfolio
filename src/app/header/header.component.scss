@@ -1,26 +1,61 @@
-
 .mat-toolbar {
-    background-color: #FAFAFA;
+    background-color: whitesmoke; //#FAFAFA;
     text-align: center;
     height: 16.75vh;
     font-size: 5vh;
-    letter-spacing: 0.1em;
     flex-wrap: wrap;
 
     .leftSpan {
         flex: 1;
+        flex-direction: row;
+        display: flex;
+        user-select: none;
+
+        .menuButtonDiv {
+
+            .menuButton {
+                border: none;
+                background-color: whitesmoke;
+                padding: 10px 50%;
+                text-align: center;
+                display: inline-block;
+                font-size: 20px;
+                cursor: pointer;
+                transition: .4s ease;
+                border-bottom: 1px solid black;
+
+                position: relative;
+                right: 16px;
+                top: 42px;
+            }
+
+            .menuButton:hover {
+                transition: .4s ease;
+                border-bottom: 4px solid black;
+                background-color: rgb(200, 200, 200);
+            }
+
+        }
     }
 
     .rightSpan {
         flex: 1;
         flex-direction: row-reverse;
         display: flex;
+
+        .mediaButton {
+            position: relative;
+            top: 35px;
+        }
     }
 
     .titleSpan {
         cursor: pointer;
         flex: 1 1 auto;
         font-weight: 500;
+        letter-spacing: 0.1em;
+        user-select: none;
+
     }
 
 }

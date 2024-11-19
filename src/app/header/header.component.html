@@ -1,15 +1,24 @@
 <mat-toolbar>
-    <span class="leftSpan"></span>
+    <span class="leftSpan">
+        <div class="menuButtonDiv" (mouseenter)="isSyncAnimated=true" (mouseleave)="isSyncAnimated=false" (click)="openSidenav()">
+            <a class="menuButton"><fa-icon [icon]="['far', 'compass']" [animation]="isSyncAnimated ? 'spin' : undefined"></fa-icon> Menu</a>
+        </div>
+    </span>
     <span class="titleSpan" routerLink="/models-list">ASTROPHEL'S GUNPLAS</span>
     <span class="rightSpan">
-        <a mat-icon-button matTooltip="Share this page!" (click)="openSnackBar('Link copied to clipboard!', '', 1000)" [cdkCopyToClipboard]="getURL()">
-            <mat-icon>share</mat-icon>
-        </a>
-        <a mat-icon-button matTooltip="My Twitter (Mostly in french)" href="https://twitter.com/AstrooLabe" target="_blank">
-            <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
-        </a>
-        <a mat-icon-button matTooltip="My Bluesky (Mostly in english)" href="https://bsky.app/profile/astroolabe.bsky.social" target="_blank">
-            <fa-icon [icon]="['fab', 'bluesky']" ></fa-icon>
-        </a>
+        <div class="mediaButton">
+            <a mat-icon-button matTooltip="Share this page!"
+                (click)="openSnackBar('Link copied to clipboard!', '', 1000)" [cdkCopyToClipboard]="getURL()">
+                <mat-icon>share</mat-icon>
+            </a>
+            <a mat-icon-button matTooltip="My Twitter (Mostly in french)" href="https://twitter.com/AstrooLabe"
+                target="_blank">
+                <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
+            </a>
+            <a mat-icon-button matTooltip="My Bluesky (Mostly in english)"
+                href="https://bsky.app/profile/astroolabe.bsky.social" target="_blank">
+                <fa-icon [icon]="['fab', 'bluesky']"></fa-icon>
+            </a>
+        </div>
     </span>
 </mat-toolbar>
