@@ -1,11 +1,31 @@
 <div style="overflow: hidden;">
     <app-header (openCloseSidenav)="openCloseSidenav()"></app-header>
-    <mat-drawer-container>
-        <mat-drawer mode="side" opened="{{isSidenavOpened}}"
-            style="background-color: whitesmoke; border: 1px solid black;">Drawer content</mat-drawer>
-        <mat-drawer-content>
+    <mat-sidenav-container>
+        <mat-sidenav mode="side" opened="{{isSidenavOpened}}">
+
+            <div (mouseenter)="isSyncAnimated=true" (mouseleave)="isSyncAnimated=false">
+                <span class="menuButton" routerLink="/models-list" (click)="openCloseSidenav()">
+                    <span style="align-content: center;"><fa-icon [icon]="['fas', 'house']"
+                            [animation]="isSyncAnimated ? 'bounce' : undefined"></fa-icon>
+                        HOME</span></span>
+            </div>
+            <div (mouseenter)="isSyncAnimated=true" (mouseleave)="isSyncAnimated=false">
+                <span class="menuButton" routerLink="/code-breakdown" (click)="openCloseSidenav()">
+                    <span style="align-content: center;"><fa-icon [icon]="['fas', 'code']"
+                            [animation]="isSyncAnimated ? 'shake' : undefined"></fa-icon>
+                        CODE BREAKDOWN</span></span>
+            </div>
+            <div (mouseenter)="isSyncAnimated=true" (mouseleave)="isSyncAnimated=false">
+                <span class="menuButton" routerLink="/links" (click)="openCloseSidenav()">
+                    <span style="align-content: center;"><fa-icon [icon]="['fas', 'link']"
+                            [animation]="isSyncAnimated ? 'beat-fade' : undefined"></fa-icon>
+                        LINKS</span></span>
+            </div>
+
+        </mat-sidenav>
+        <mat-sidenav-content>
             <router-outlet></router-outlet>
-        </mat-drawer-content>
-    </mat-drawer-container>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
     <app-footer></app-footer>
 </div>

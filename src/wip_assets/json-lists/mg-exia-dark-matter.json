@@ -1,0 +1,40 @@
+{
+    "modelInfo": {
+        "modelName": "MG GUNDAM EXIA DARK MATTER",
+        "nbGridCols": "4",
+        "aspectRatio": "3:4"
+    },
+
+    "imageList": [
+        {
+            "imgLink": "https://i.ibb.co/F6xn8Lt/MG-Exia-Dark-Matter-5.jpg",
+            "nbCols": "2",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/w05PySQ/MG-Exia-Dark-Matter-6.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/ZHCpW5Q/MG-Exia-Dark-Matter-4.jpg",
+            "nbCols": "2",
+            "nbRows": "1"
+        },
+        {
+            "imgLink": "https://i.ibb.co/7SHTfTC/MG-Exia-Dark-Matter-3.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/y53rsYx/MG-Exia-Dark-Matter-2.jpg",
+            "nbCols": "2",
+            "nbRows": "2"
+        },
+        {
+            "imgLink": "https://i.ibb.co/MnfJqr8/MG-Exia-Dark-Matter-Booster.jpg",
+            "nbCols": "4",
+            "nbRows": "2"
+        }
+    ]
+}

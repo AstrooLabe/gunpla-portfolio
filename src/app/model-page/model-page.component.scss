@@ -3,8 +3,12 @@
     flex-direction: row;
     justify-content: center;
 
+    .sideSpan {
+        flex: 1 0 10%;
+    }
+
     .grille {
-        flex: 1 1 80%;
+        flex: 0 0 80vw;
         padding-top: 10px;
         padding-bottom: 10px;
         display: flex;

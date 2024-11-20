@@ -1,0 +1,49 @@
+{
+    "modelsList": [
+        {
+            "name": "CUSTOM WIP /// GM QUEER",
+            "imgLink": "https://i.ibb.co/KrHRMsP/GM-Queer-thumbnail.png",
+            "pageLink": "gm-queer"
+        },
+        {
+            "name": "SDWH GAN NING CROSSBONE GUNDAM CUSTOM",
+            "imgLink": "https://i.ibb.co/nkPy6k8/AM-719.jpg",
+            "pageLink": "gan-ning-custom"
+        },
+        {
+            "name": "HG WfM CHUCHU'S DEMI TRAINER",
+            "imgLink": "https://i.ibb.co/stDCszc/thumbnail-chuchu-dt.jpg",
+            "pageLink": "hg-chuchu-dt"
+        },
+        {
+            "name": "SDCS ZETA GUNDAM",
+            "imgLink": "https://i.ibb.co/b2JVf59/SDCS-Gundam-Zeta-3.jpg",
+            "pageLink": "sdcs-zeta"
+        },
+        {
+            "name": "MG GUNDAM EXIA DARK MATTER",
+            "imgLink": "https://i.ibb.co/HnhvTwr/MG-EXIA-Dark-Matter.jpg",
+            "pageLink": "mg-exia-dark-matter"
+        },
+        {
+            "name": "GUNDAM CONVERGE II NEO ZEONG",
+            "imgLink": "https://i.ibb.co/GJShgXf/II-NEO-ZEONG-8.jpg",
+            "pageLink": "converge-II-neo-zeong"
+        },
+        {
+            "name": "MG RX-78-2 GUNDAM 3.0",
+            "imgLink": "https://i.ibb.co/mtC6vdS/MG-RX-78-3-0-2.jpg",
+            "pageLink": "mg-rx-78-V3"
+        },
+        {
+            "name": "HGBD ASTRAY NO NAME",
+            "imgLink": "https://i.ibb.co/RHxmXvB/HG-Astray-No-Name-1.jpg",
+            "pageLink": "astray-no-name"
+        },
+        {
+            "name": "RE/100 AMX-107 BAWOO",
+            "imgLink": "https://i.ibb.co/6t8WtjB/RE-100-Bawoo-3.jpg",
+            "pageLink": "re-100-bawoo"
+        }
+    ]
+}

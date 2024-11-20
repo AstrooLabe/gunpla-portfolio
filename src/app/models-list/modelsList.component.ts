@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { UpButtonComponent } from '../up-button/up-button.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-modelsList',
     standalone: true,
-    imports: [MatGridListModule, UpButtonComponent, MatSidenavModule],
+    imports: [MatGridListModule, UpButtonComponent, MatSidenavModule, CommonModule],
     templateUrl: './modelsList.component.html',
     styleUrl: './modelsList.component.scss'
 })
