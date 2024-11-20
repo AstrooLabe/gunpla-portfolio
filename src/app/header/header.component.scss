@@ -2,7 +2,6 @@
     background-color: whitesmoke; //#FAFAFA;
     text-align: center;
     height: 16.75vh;
-    font-size: 5vh;
     flex-wrap: wrap;
 
     .leftSpan {
@@ -57,7 +56,16 @@
         font-weight: 500;
         letter-spacing: 0.1em;
         user-select: none;
+        font-family: 'Virgo';
+        font-size: 2.5em;
 
     }
 
+}
+
+@font-face {
+    font-family: 'Virgo'; /*a name to be used later*/
+    src: 
+        local('Virgo 01'), /*URL to font*/
+        url('https://astrophelsgunpla.neocities.org/assets/virgo.ttf');
 }

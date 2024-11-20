@@ -8,7 +8,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatTabsModule } from '@angular/material/tabs';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faTwitter, faBluesky } from '@fortawesome/free-brands-svg-icons';
+import { faTiktok, faBluesky } from '@fortawesome/free-brands-svg-icons';
 import { faCompass } from '@fortawesome/free-regular-svg-icons';
 import { RouterLink } from '@angular/router';
 
@@ -28,7 +28,7 @@ export class HeaderComponent {
 
   constructor(library: FaIconLibrary) {
     library.addIcons(
-      faTwitter,
+      faTiktok,
       faBluesky,
       faCompass
     );
