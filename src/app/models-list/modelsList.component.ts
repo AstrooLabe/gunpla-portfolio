@@ -14,11 +14,19 @@ import { Router } from '@angular/router';
 })
 export class ModelsListComponent {
 
+    protected wipModelsList: Model[] = [];
     protected modelsList: Model[] = [];
     constructor(public router: Router) {
         fetch('../../assets/json-lists/models-list.json').then((res) => {
             return res.json();
-        }).then((data) => { this.modelsList = data.modelsList; });
+        }).then((data) => { 
+            data.modelsList.forEach((model: Model) => {
+                if(model.isInProgress)
+                    this.wipModelsList.push(model);
+                else
+                    this.modelsList.push(model);
+            });
+        });
     }
 
     protected navigateToModelPage(modelLink: String = "") {
@@ -30,4 +38,5 @@ interface Model {
     name: string;
     imgLink: string;
     pageLink: string;
+    isInProgress: Boolean;
 }

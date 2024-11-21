@@ -24,6 +24,18 @@
         justify-content: center;
     }
 
+    .titleSpan {
+        flex: 1 1 100%;
+        font-weight: 500;
+        user-select: none;
+        text-align: center;
+        font-size: 3em;
+        padding: 10px;
+        height: fit-content;
+        font-family: 'Heavy Data';
+        letter-spacing: 0.1em;
+    }
+
     mat-grid-list {
         padding-top: 10px;
         mat-grid-tile {
@@ -66,4 +78,12 @@
 
         }
     }
+}
+
+@font-face {
+    font-family: 'Heavy Data';
+    /*a name to be used later*/
+    src:
+        local('Heavy Data'),
+        url('https://astrophelsgunpla.neocities.org/assets/heavy_data.ttf');
 }

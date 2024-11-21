@@ -40,22 +40,29 @@
             font-family: 'ComicRelief';
         }
 
-        .codeDisplay{
+        .codeDisplay {
             background-color: #1F1F1F;
             color: #4897CE;
+        }
+
+        .webButton {
+            padding: 5px;
         }
     }
 }
 
 @font-face {
-    font-family: 'Heavy Data'; /*a name to be used later*/
-    src: 
+    font-family: 'Heavy Data';
+    /*a name to be used later*/
+    src:
         local('Heavy Data'),
         url('https://astrophelsgunpla.neocities.org/assets/heavy_data.ttf');
 }
+
 @font-face {
-    font-family: 'ComicRelief'; /*a name to be used later*/
-    src: 
+    font-family: 'ComicRelief';
+    /*a name to be used later*/
+    src:
         local('Comic Relief'),
         url('https://astrophelsgunpla.neocities.org/assets/ComicRelief  .ttf');
 }

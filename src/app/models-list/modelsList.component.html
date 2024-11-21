@@ -4,6 +4,14 @@
         <span class="noticeSpan">As of now the images may take some time to load so don't worry if you get a blank
             page and just wait a few seconds.</span>
         <span class="noticeSpan">I'll work on this issue soon!</span>
+        <span class="titleSpan" *ngIf="wipModelsList.length > 0;">BUILDS IN PROGRESS</span>
+        <mat-grid-list cols="2" gutterSize="10px" rowHeight="4:3" *ngIf="wipModelsList.length > 0;">
+            @for (model of wipModelsList; track model) {
+            <mat-grid-tile><img src={{model.imgLink}}><span (click)="navigateToModelPage(model.pageLink)"
+                    class="tileText">{{model.name}}</span></mat-grid-tile>
+            }
+        </mat-grid-list>
+        <span class="titleSpan">COMPLETED BUILDS</span>
         <mat-grid-list cols="2" gutterSize="10px" rowHeight="4:3">
             @for (model of modelsList; track model) {
             <mat-grid-tile><img src={{model.imgLink}}><span (click)="navigateToModelPage(model.pageLink)"

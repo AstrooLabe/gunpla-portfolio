@@ -9,7 +9,7 @@ export const routes: Routes = [
     { path: 'models-list', component: ModelsListComponent },
     { path: 'model/:modelLink', component: ModelPageComponent },
     { path: 'maintenance', component: MaintenanceComponent },
-    { path: 'code-breakdown', component: CodeBreakdownComponent },
+    { path: 'code-breakdown', redirectTo: '/maintenance', pathMatch: 'full' },
     { path: 'links', component: LinksPageComponent },
     { path: '', redirectTo: '/models-list', pathMatch: 'full' },
 ];
