@@ -33,6 +33,6 @@
             </div>
         </mat-sidenav-content>
     </mat-sidenav-container>
-    <app-up-button></app-up-button>
+    <app-up-button *ngIf="isPageBiggerThanScreen"></app-up-button>
     <app-footer></app-footer>
 </div>

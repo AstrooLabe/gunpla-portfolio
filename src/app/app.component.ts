@@ -29,7 +29,14 @@ export class AppComponent {
     );
   }
 
+  ngOnInit() {
+    console.log(document.body.scrollHeight);
+    console.log(window.outerHeight);
+    this.isPageBiggerThanScreen = document.body.scrollHeight > window.outerHeight;
+  }
+
   protected isSidenavOpened: Boolean = false;
+  protected isPageBiggerThanScreen: Boolean = false;
   isSyncAnimated: any;
 
   public openCloseSidenav() {
