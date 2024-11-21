@@ -1,46 +1,32 @@
-.conteneur {
+.grille {
+    flex: 0 0 80vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    min-height: 78.5vh;
-
-    .sideSpan {
-        flex: 1 100 10%;
-    }
-
-    .grille {
-        flex: 0 0 80vw;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-    }
+    flex-direction: column;
 
     .titleSpan {
         flex: 1 1 auto;
-        font-weight: 450;
-        font-size: 4vh;
+        font-size: 3em;
         padding: 25px;
-        text-align: center;
         justify-content: center;
     }
-
+    
     .noticeSpan {
         flex: 1 1 auto;
         font-weight: 300;
         font-size: 2vh;
-        text-align: center;
         justify-content: center;
     }
-
+    
     mat-grid-list {
         mat-grid-tile {
-
+    
             img {
                 object-fit: fill;
                 max-width: 100%;
             }
-
+    
         }
     }
 }

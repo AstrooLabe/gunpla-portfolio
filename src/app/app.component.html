@@ -24,8 +24,15 @@
 
         </mat-sidenav>
         <mat-sidenav-content>
-            <router-outlet></router-outlet>
+            <div class="container">
+                <div class="sideSpan"></div>
+                <div class="middleSpan">
+                    <router-outlet></router-outlet>
+                </div>
+                <div class="sideSpan"></div>
+            </div>
         </mat-sidenav-content>
     </mat-sidenav-container>
+    <app-up-button></app-up-button>
     <app-footer></app-footer>
 </div>

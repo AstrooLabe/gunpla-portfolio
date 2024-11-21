@@ -1,11 +1,11 @@
 <mat-toolbar>
-    <span class="leftSpan">
+    <span class="leftSpan sideSpan">
         <div class="menuButtonDiv" (mouseenter)="isSyncAnimated=true" (mouseleave)="isSyncAnimated=false" (click)="openSidenav()">
             <a class="menuButton"><fa-icon [icon]="['far', 'compass']" [animation]="isSyncAnimated ? 'spin' : undefined"></fa-icon> MENU</a>
         </div>
     </span>
-    <span class="titleSpan" routerLink="/models-list">ASTROPHEL'S GUNPLAS</span>
-    <span class="rightSpan">
+    <span class="titleSpan textGlobal" routerLink="/models-list">ASTROPHEL'S GUNPLAS</span>
+    <span class="rightSpan sideSpan">
         <div class="mediaButton">
             <a mat-icon-button matTooltip="Share this page!"
                 (click)="openSnackBar('Link copied to clipboard!', '', 1000)" [cdkCopyToClipboard]="getURL()">

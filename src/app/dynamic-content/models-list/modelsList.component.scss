@@ -1,45 +1,27 @@
-.conteneur {
+.grille {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    min-height: 78.5vh;
-
-    .sideSpan {
-        flex: 1 100 10%;
-    }
-
-    .grille {
-        flex: 0 0 80vw;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-    }
+    flex-direction: column;
 
     .noticeSpan {
         flex: 1 1 auto;
         font-weight: 300;
         font-size: 2vh;
-        text-align: center;
         justify-content: center;
     }
-
+    
     .titleSpan {
         flex: 1 1 100%;
-        font-weight: 500;
-        user-select: none;
-        text-align: center;
         font-size: 3em;
         padding: 10px;
-        height: fit-content;
-        font-family: 'Heavy Data';
         letter-spacing: 0.1em;
     }
 
     mat-grid-list {
         padding-top: 10px;
+
         mat-grid-tile {
-            //background: lightblue;
             border-radius: 10px;
             place-content: center;
             display: flex;
@@ -50,7 +32,6 @@
                 background-color: rgba(128, 128, 128, 0.7);
                 align-items: center;
                 justify-content: center;
-                text-align: center;
                 display: inline-flex;
                 font-size: x-large;
                 font-weight: 400;
@@ -78,12 +59,4 @@
 
         }
     }
-}
-
-@font-face {
-    font-family: 'Heavy Data';
-    /*a name to be used later*/
-    src:
-        local('Heavy Data'),
-        url('https://astrophelsgunpla.neocities.org/assets/heavy_data.ttf');
 }

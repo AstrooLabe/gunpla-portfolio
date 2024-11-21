@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { MaintenanceComponent } from './maintenance/maintenance.component';
-import { ModelsListComponent } from './models-list/modelsList.component';
-import { ModelPageComponent } from './model-page/model-page.component';
-import { LinksPageComponent } from './links-page/links-page.component';
-import { CodeBreakdownComponent } from './code-breakdown/code-breakdown.component';
+import { MaintenanceComponent } from './dynamic-content/maintenance/maintenance.component';
+import { ModelsListComponent } from './dynamic-content/models-list/modelsList.component';
+import { ModelPageComponent } from './dynamic-content/model-page/model-page.component';
+import { LinksPageComponent } from './dynamic-content/links-page/links-page.component';
+import { CodeBreakdownComponent } from './dynamic-content/code-breakdown/code-breakdown.component';
 
 export const routes: Routes = [
     { path: 'models-list', component: ModelsListComponent },

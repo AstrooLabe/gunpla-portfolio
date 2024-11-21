@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { UpButtonComponent } from '../up-button/up-button.component';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-model-page',
   standalone: true,
-  imports: [MatGridListModule, UpButtonComponent],
+  imports: [MatGridListModule],
   templateUrl: './model-page.component.html',
   styleUrl: './model-page.component.scss'
 })
@@ -15,9 +14,9 @@ import { Observable } from 'rxjs';
 export class ModelPageComponent {
   state: Observable<object> = new Observable<object>();
   modelLink: string = "";
-  modelInfo: ModelInfo = { modelName: "", aspectRatio: "", nbGridCols: ""};
+  modelInfo: ModelInfo = { modelName: "", aspectRatio: "", nbGridCols: "" };
   modelImages: Image[] = [];
-  
+
   constructor(public route: ActivatedRoute) {
     this.route.params.subscribe(params => {
       this.modelLink = params['modelLink'];

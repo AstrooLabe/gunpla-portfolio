@@ -1,4 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.textGlobal {
+    user-select: none;
+    text-align: center;
+    height: fit-content;
+}
+
+.titleGlobal {
+    font-weight: 300;
+    height: fit-content;
+    font-family: 'Heavy Data';
+}
+
+@font-face {
+    font-family: 'Heavy Data';
+    /*a name to be used later*/
+    src:
+        local('Heavy Data'),
+        url('https://astrophelsgunpla.neocities.org/assets/heavy_data.ttf');
+}
+
+@font-face {
+    font-family: 'ComicRelief';
+    /*a name to be used later*/
+    src:
+        local('Comic Relief'),
+        url('https://astrophelsgunpla.neocities.org/assets/ComicRelief  .ttf');
+}
+
+@font-face {
+    font-family: 'Virgo';
+    /*a name to be used later*/
+    src:
+        local('Virgo 01'),
+        /*URL to font*/
+        url('https://astrophelsgunpla.neocities.org/assets/virgo.ttf');
+}
