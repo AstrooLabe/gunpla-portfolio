@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 
 import { HeaderComponent } from './static-content/header/header.component'
 import { FooterComponent } from './static-content/footer/footer.component';
@@ -17,10 +17,14 @@ import { UpButtonComponent } from "./static-content/up-button/up-button.componen
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'gunpla-portfolio';
 
-  constructor(library: FaIconLibrary) {
+  protected isSidenavOpened: Boolean = false;
+  protected isPageBiggerThanScreen: Boolean = false;
+  isSyncAnimated: any;
+
+  constructor(library: FaIconLibrary, private router: Router) {
     library.addIcons(
       faCompass,
       faHouse,
@@ -30,16 +34,24 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    console.log(document.body.scrollHeight);
-    console.log(window.outerHeight);
-    this.isPageBiggerThanScreen = document.body.scrollHeight > window.outerHeight;
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        for(let page of this.pagesForUpButtonList)
+          if(this.router.url.includes(page)){
+            this.isPageBiggerThanScreen = true;
+            break;
+          }
+          else this.isPageBiggerThanScreen = false;
+      }
+    });
   }
-
-  protected isSidenavOpened: Boolean = false;
-  protected isPageBiggerThanScreen: Boolean = false;
-  isSyncAnimated: any;
 
   public openCloseSidenav() {
     this.isSidenavOpened = !this.isSidenavOpened;
   }
+
+  pagesForUpButtonList: string[] = [
+    "model",
+    "code-breakdown"
+  ];
 }
