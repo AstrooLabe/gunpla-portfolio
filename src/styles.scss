@@ -16,6 +16,17 @@ body {
     height: fit-content;
 }
 
+.menuButtonGlobal {
+    border: none;
+    background-color: whitesmoke;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
 .titleGlobal {
     font-weight: 300;
     height: fit-content;

@@ -49,4 +49,12 @@ export class HeaderComponent {
   openSidenav() {
     this.openCloseSidenav.emit();
   }
+
+  LoadPortraitLayout() {
+    document.getElementById("mattoolbar")?.setAttribute("class", "mat-toolbar-single-row mat-toolbarBase mat-toolbarPortrait");
+  }
+
+  LoadLandscapeLayout() {
+    document.getElementById("mattoolbar")?.setAttribute("class", "mat-toolbar-single-row mat-toolbarBase mat-toolbarLandscape");
+  }
 }
