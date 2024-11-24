@@ -1,18 +1,16 @@
-<div>
-    <h2 mat-dialog-title>About this site</h2>
-    <mat-dialog-content class="mat-typography">
-        <p>Hey there, the name's Astrophel and this is my website! For now it's pretty bare, but I plan to use it as a
-            display of my skills
-            as a gunpla builder and their progression, and also my skills as an Angular developer. In a possible
-            future, this site will also
-            host my blog and be compatible with mobile devices.</p>
-        <p>I hope to be able to show you all this soon!</p>
-        <mat-divider></mat-divider>
-    </mat-dialog-content>
+<mat-dialog-content>
+    <h2 class="matTitle">About this site</h2>
+    <p>Hey there, the name's Astrophel and this is my website! For now it's pretty bare, but I plan to use it as a
+        display of my skills
+        as a gunpla builder and their progression, and also my skills as an Angular developer. In a possible
+        future, this site will also
+        host my blog and be compatible with mobile devices.</p>
+    <p>I hope to be able to show you all this soon!</p>
+    <mat-divider></mat-divider>
 
-    <h2 mat-dialog-title>Technologies used</h2>
-    <mat-dialog-content>
-        <p>This website is developed by myself using the following languages, frameworks and ressources:</p>
+    <h2 class="matTitle">Technologies used</h2>
+    <p>This website is developed by myself using the following languages, frameworks and ressources: </p>
+    <p>
         <fa-icon [icon]="['fas', 'circle']" style="font-size:8px"> </fa-icon><mat-list-item> Typescript
             v5</mat-list-item>
         <fa-icon [icon]="['fas', 'circle']" style="font-size:8px"> </fa-icon><mat-list-item> Angular v18</mat-list-item>
@@ -20,16 +18,14 @@
             v18</mat-list-item>
         <fa-icon [icon]="['fas', 'circle']" style="font-size:8px"> </fa-icon><mat-list-item> Font Awesome free SVG
             icons</mat-list-item>
-        <mat-divider></mat-divider>
-    </mat-dialog-content>
+    </p>
+    <mat-divider></mat-divider>
 
-    <h2 mat-dialog-title>About Angular and Neocities</h2>
-    <mat-dialog-content class="mat-typography">
-        <p>If like me you have/had problems getting modern Angular to works fine with Neocities, you (maybe) need to use
-            HashLocationStrategy
-            to get your routes to load properly. You can find the doc
-            <a href="https://angular.dev/guide/routing/common-router-tasks#locationstrategy-and-browser-url-styles"
-                target="_blank">here</a>.
-        </p>
-    </mat-dialog-content>
-</div>
+    <h2 class="matTitle">About Angular and Neocities</h2>
+    <p>If like me you have/had problems getting modern Angular to works fine with Neocities, you (maybe) need to use
+        HashLocationStrategy
+        to get your routes to load properly. You can find the doc
+        <a href="https://angular.dev/guide/routing/common-router-tasks#locationstrategy-and-browser-url-styles"
+            target="_blank">here</a>.
+    </p>
+</mat-dialog-content>

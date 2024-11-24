@@ -31,6 +31,6 @@
             </div>
         </mat-sidenav-content>
     </mat-sidenav-container>
-    <app-up-button *ngIf="isPageBiggerThanScreen"></app-up-button>
+    <app-up-button *ngIf="isPageBiggerThanScreen" [ngClass]="{up_buttonLandscape: !isUpButtonPortrait, up_buttonPortrait: isUpButtonPortrait}" id="up-button"></app-up-button>
     <app-footer></app-footer>
 </div>

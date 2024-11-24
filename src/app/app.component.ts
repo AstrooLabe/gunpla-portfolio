@@ -32,6 +32,7 @@ export class AppComponent implements OnInit {
   protected isSidenavOpened: Boolean = false;
   protected isPageBiggerThanScreen: Boolean = false;
   protected isSyncAnimated: any;
+  protected isUpButtonPortrait: Boolean = false;
 
   layoutChanges = this.responsive.observe([
     '(orientation: portrait)'
@@ -56,13 +57,15 @@ export class AppComponent implements OnInit {
           }
           else this.isPageBiggerThanScreen = false;
       }
-    });
+    })
 
     this.layoutChanges.subscribe(result => {
-      if (result.matches)
+      if (result.matches) {
         this.LoadPortraitLayout();
-      else
+      }
+      else {
         this.LoadLandscapeLayout();
+      }
     });
   }
 
@@ -73,12 +76,16 @@ export class AppComponent implements OnInit {
   LoadPortraitLayout() {
     this.headerComponent.LoadPortraitLayout();
     document.getElementById("mainContainer")?.setAttribute("class", "mat-drawer-container mat-sidenav-container mainContainer mainContainerPortrait");
+    document.getElementById("up-button")?.setAttribute("class", "up_buttonPortrait");
     this.sideMenu.mode = "over";
+    this.isUpButtonPortrait = true;
   }
 
   LoadLandscapeLayout() {
     this.headerComponent.LoadLandscapeLayout();
     document.getElementById("mainContainer")?.setAttribute("class", "mat-drawer-container mat-sidenav-container mainContainer mainContainerLandscape");
+    document.getElementById("up-button")?.setAttribute("class", "up_buttonLandscape");
     this.sideMenu.mode = "side";
+    this.isUpButtonPortrait = true;
   }
 }
